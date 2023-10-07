@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "eslint:recommended"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest"
+  },
+  "rules": {
+    "no-unexpected-multiline": 0,
+    "no-use-before-define": [2, "nofunc"],
+    "indent": [2, 2, {
+      "VariableDeclarator": {
+        "let": 2,
+        "const": 3
+      }
+    }]
+  }
+}

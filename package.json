@@ -1,0 +1,11 @@
+{
+  "private": true,
+  "name": "eslint-repro-destructured-intent",
+  "type": "module",
+  "dependencies": {
+    "eslint": "^8.51.0"
+  },
+  "scripts": {
+    "start": "eslint ."
+  }
+}
